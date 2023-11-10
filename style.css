@@ -1,0 +1,439 @@
+/* cải thiện dáng tiêu để */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.myheader {
+    background-color: #fcceac;
+    color: #fff;
+    padding: -102px 0;
+}
+
+.myheader img {
+    max-width: 100%;
+    height: auto;
+}
+
+.h2 , h2 {
+  color: #ff5722;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.input-group input {
+    background-color: #f7f7f7;
+    color: #fff;
+    border: 1px solid #151414;
+}
+
+.input-group-text {
+    background-color: #666;
+    border: 1px solid #666;
+    color: #fff;
+}
+
+/* Customize the contact info and icons */
+.myheader .text-danger {
+    font-size: 18px;
+}
+
+.myheader .fa-regular.fa-user {
+    font-size: 20px;
+    color: #fff;
+}
+
+.myheader .badge {
+    background-color: #ff5722;
+    color: #fff;
+}
+
+
+    /* cải thiện menu chính */
+    .mymainmenu {
+        background-color: #ff5722;
+        padding: 10px 0;
+    }
+    
+    .mymainmenu .navbar {
+        background-color: transparent;
+        border: none;
+    }
+    
+    .mymainmenu .navbar-nav .nav-link {
+        color: #fff;
+        font-weight: 500;
+        padding: 10px 15px;
+    }
+    
+    .mymainmenu .navbar-nav .nav-link:hover {
+        background-color: #d84315;
+        border-radius: 5px;
+    }
+
+    .product-item {
+        border: 1px solid #ccc; /* Add a border */
+        padding: 10px; /* Add some padding around the product items */
+        text-align: center; /* Center text within the product items */
+    }
+    .bg-danger{
+        margin-left: 0px;
+    }
+    .fa-star{
+        margin-left: -70px;
+    }
+    .fa-star :before{
+        margin-left:50px ;
+    }
+    .product-item img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .product-item h4 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    
+    .product-item h3 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #ff5722;
+        margin: 10px 0;
+    }
+
+    /* icon ngôi sao */
+    .product_title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px 0;
+    }
+    
+    .product_title .col-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .product_title .fs-3 {
+        margin-right: 10px;
+    }
+    
+    .product_title h3 {
+        margin: 0;
+    }
+   
+    .image-container {
+        position: relative;
+        width: 300px; /* Độ rộng của hình ảnh */
+        height: 200px; /* Chiều cao của hình ảnh */
+    }
+
+   /* trang phụ */
+    
+
+
+  /* giởi thiệu admin */
+    /* Center the content in the container */
+.center {
+    text-align: center;
+}
+
+/* Style the column headings */
+.col-6 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Style the paragraph text in columns */
+.col-6 p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Style the image within the testimonials */
+.col-6 img {
+    max-width: 250px;
+    height: 250px;
+    margin-top: -79px;
+}
+
+/* Style the testimonials text */
+.col-6 div {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+}
+
+/* Style the icons */
+.wrappers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icons {
+    cursor: pointer;
+    position: relative;
+}
+
+.icons i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.icons .tooltips {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 25px;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.icons .tooltips:before {
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 15px;
+    left: 50%;
+    bottom: -6px;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.icons:hover .tooltips {
+    opacity: 1;
+    pointer-events: auto;
+    top: -70px;
+}
+
+.icons:hover i {
+    color: #fff;
+}
+
+/* Style the portrait images */
+.portraits {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.img_ss {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+/* Add more styles as needed */
+
+
+ 
+
+
+ /* cải thiện chân trang     */
+ .myfooter {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.myfooter h4 {
+    color: #ff5722;
+}
+
+.myfooter .itemlist a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.myfooter .itemlist a:hover {
+    text-decoration: underline;
+}
+
+.myfooter .fa-brands {
+    font-size: 20px;
+    color: #ff5722;
+    margin-right: 10px;
+}
+
+.myfooter .box50 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ff5722;
+    color: #ff5722;
+}
+.image-container {
+    position: relative;
+    width: 300px;
+    /* Độ rộng của hình ảnh */
+    height: 200px;
+    /* Chiều cao của hình ảnh */
+    margin-top: 20px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    /* Đưa văn bản lên trung tâm theo chiều dọc */
+    left: 50%;
+    /* Đưa văn bản lên trung tâm theo chiều ngang */
+    transform: translate(-50%, -50%);
+    /* Dịch chuyển văn bản để nó chính giữa */
+    background: rgba(0, 0, 0, 0.5);
+    /* Màu nền của văn bản */
+    color: white;
+    /* Màu chữ của văn bản */
+    padding: 10px;
+    /* Khoảng cách giữa văn bản và khung */
+    font-size: 18px;
+}
+
+.image-container {
+    position: relative;
+    width: 1520px;
+    /* Độ rộng của hình ảnh */
+    height: 450px;
+    /* Chiều cao của hình ảnh */
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    /* Đưa văn bản lên trung tâm theo chiều dọc */
+    left: 50%;
+    /* Đưa văn bản lên trung tâm theo chiều ngang */
+    transform: translate(-50%, -50%);
+    /* Dịch chuyển văn bản để nó chính giữa */
+    background: rgba(255, 255, 255, 0.7);
+    /* Màu nền của văn bản (trắng với độ trong suốt) */
+    color: #000;
+    /* Màu chữ của văn bản (đen) */
+    padding: 10px;
+    /* Khoảng cách giữa văn bản và khung */
+    font-size: 24px;
+    /* Kích thước font chữ */
+    font-family: 'courgete', Times, serif;
+    /* Font chữ được sử dụng */
+    border-radius: 10px;
+}
+:root {
+	--facebook-color: #3b5999;
+	--instagram-color: #e1306c;
+	--youtube-color: #de463b;
+	--twitter-color: #46c1f6;
+	--github-color: #333;
+    }
+    .wrappers {
+        display: flex;
+    }
+
+    .icons {
+        margin: 0 20px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .icons i {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icons .tooltips {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+        padding: 10px 18px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 25px;
+        opacity: 0;
+        pointer-events: none;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .icons .tooltips:before {
+        position: absolute;
+        content: '';
+        height: 15px;
+        width: 15px;
+        left: 50%;
+        bottom: -6px;
+        transform: translateX(-50%) rotate(45deg);
+    }
+
+    .tooltips,
+    .icons i {
+        transition: 0.3s;
+    }
+
+    .icons:hover .tooltips {
+        opacity: 1;
+        pointer-events: auto;
+        top: -70px;
+    }
+
+    .icons:hover i {
+        color: white;
+    }
+
+    .facebooks .tooltips:before,
+    .facebooks:hover i,
+    .facebooks .tooltips {
+        background: var(--facebook-color);
+    }
+    .githubs .tooltips:before,
+    .githubs:hover i,
+    .githubs .tooltips {
+        background: var(--github-color);
+    }
+    .twitters .tooltips:before,
+    .twitters:hover i,
+    .twitters .tooltips {
+        background: var(--twitter-color);
+    }
+    .instagrams .tooltips:before,
+    .instagrams:hover i,
+    .instagrams .tooltips {
+        background: var(--instagram-color);
+    }
+    .youtubes .tooltips:before,
+    .youtubes:hover i,
+    .youtubes .tooltips {
+        background: var(--youtube-color);
+    }
+    .icon_footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
